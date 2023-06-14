@@ -1,0 +1,118 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+a {
+	color: #39414C;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action {
+	border-bottom: 1px solid #39414C;
+}
+.link-action:hover {
+	background-color: #39414C;
+}
+/* ----- READ MORE BUTTON ----- */
+.readon,
+p.readmore a {
+	background-color: #39414C;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #999999;
+	border-right: 1px groove #B9B9B9;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #BBBBBB;
+	border-right: 1px groove #BBBBBB;
+}
+table.style-colorstripes thead th {
+	background-color: #737373;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #8B8B8B;
+}
+table.style-colorstripes tbody tr {
+	background-color: #A3A3A3;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #39414C;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #8B8B8B;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #DBDBDB;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #808080;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #D0D0D0;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #BBBBBB;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #737373;
+}
+.sectiontableheader {
+	background-color: #999999;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #8B8B8B;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - MAIN MENU =============== */
+/* ----- CURRENT / HOVER STATE FIRST LEVEL ----- */
+div.jsn-modulecontainer ul.menu-mainmenu > li:hover,
+div.jsn-modulecontainer ul.menu-mainmenu > li.active {
+	background: #39414C;
+}
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul li.current > a {
+	color: #39414C;
+}
+/* =============== MENU - TREE MENU =============== */
+/* ----- CURRENT / HOVER STATE ----- */
+div.jsn-modulecontainer ul.menu-treemenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu ul li.active > a {
+	color: #39414C;
+}
+/* =============== MENU - SIDE MENU =============== */
+/* ----- HOVER STATE IN SPECIFIC MODULE BOXES ----- */
+div.jsn-modulecontainer ul.menu-sidemenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu ul li.active > a {
+	color: #39414C;
+}
+/* ----- ACTIVE STATE IN SPECIFIC MODULE BOXES ----- */
+div.jsn-modulecontainer ul.menu-sidemenu > li.active > a {
+	color: #39414C;
+}
+/* ============================== SITE TOOLS ============================== */
+/* =============== SITE TOOLS - GENERAL PRESENTATION =============== */
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- RICHBOX ----- */
+div.richbox-2 div.jsn-modulecontainer_inner {
+	background-color: #39414C;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - MOD_SEARCH =============== */
+#jsn-pos-top div.search input#mod_search_searchword {
+	border: 1px solid #737373;
+}
